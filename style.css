@@ -54,6 +54,10 @@ body {
   cursor: pointer;
 }
 
+.listNama li:hover {
+  text-decoration: underline;
+}
+
 .nav__toggle-btn {
   display: none;
   background: none;
