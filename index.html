@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+    <title>Project Kelompok 1</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>
+                Project Kelompok 1
+            </h1>
+        </div>
+
+        <ul class="listNama" id="nav-list">
+            <li>
+                Aldi Alfredo Fabian Manik
+            </li>
+            <li>Fikri Maulana</li>
+            <li>Michael Gonzalio Ottay</li>
+            <li>Rendy</li>
+        </ul>
+
+        <button class="nav__toggle-btn" id="nav__toggle-open"><i class="uil uil-bars"></i></button>
+        <button class="nav__toggle-btn" id="nav__toggle-close" style="display: none;"><i
+                class="uil uil-times"></i></button>
+    </nav>
+    <model-viewer src="models/130.glb" style="width: 100%; height: 100vh" camera-controls shadow-intensity="2"
+        touch-action="pan-y" ar scale="0.1 0.1 0.1" ar-status="on-ar-status" ar-modes="webxr scene-viewer quick-look">
+    </model-viewer>
+    <script src="/main.js"></script>
+</body>
+
+</html>
